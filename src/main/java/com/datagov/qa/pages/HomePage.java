@@ -14,7 +14,7 @@ public class HomePage extends TestBase{
 	
 	@FindBy(xpath= "//a[@title='View All Catalogs']")
 	WebElement viewallcatalog;
-	
+	//This is a sample comment
 	public HomePage()
 	{
 	 PageFactory.initElements(driver,this);
